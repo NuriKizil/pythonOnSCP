@@ -1,0 +1,9 @@
+---
+applications:
+- name: myapp
+  host: rahulmyapp
+  path: .
+  memory: 128M
+  command: python server.py
+  services:
+    - myhana
